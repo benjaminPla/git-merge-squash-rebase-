@@ -33,6 +33,7 @@ Standing on 'master' branch
 ```
 git merge feature
 ```
+![merge](https://user-images.githubusercontent.com/85419447/192778815-cd30d299-ea37-4d21-b3a1-4ba7d46b176d.png)
 
 ##--squash
 Standing on 'master' branch
@@ -40,6 +41,7 @@ Standing on 'master' branch
 git merge --squash feature
 git commit -m "Merge --squash branch 'feature'"
 ```
+![merge--squash](https://user-images.githubusercontent.com/85419447/192778799-d04ca5af-395f-415c-a574-48df21a84d51.png)
 
 ##rebase
 Standing on 'feature' branch
@@ -48,3 +50,4 @@ git rebase master
 git checkout master
 git rebase feature
 ```
+![rebase](https://user-images.githubusercontent.com/85419447/192778757-afc2950d-92fc-47f3-bdee-b7d2c435839e.png)

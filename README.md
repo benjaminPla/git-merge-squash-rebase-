@@ -1,6 +1,6 @@
-#GIT [merge, --squash, rebase] basics
+# GIT [merge, --squash, rebase] basics
 
-##Diagram
+## Diagram
 ```
 git init
 touch master.txt
@@ -28,14 +28,14 @@ echo m3 >> master.txt
 git commit -am 'm3'
 ```
 
-##merge
+## merge
 Standing on 'master' branch
 ```
 git merge feature
 ```
 ![merge](https://user-images.githubusercontent.com/85419447/192778815-cd30d299-ea37-4d21-b3a1-4ba7d46b176d.png)
 
-##--squash
+## --squash
 Standing on 'master' branch
 ```
 git merge --squash feature
@@ -43,7 +43,7 @@ git commit -m "Merge --squash branch 'feature'"
 ```
 ![merge--squash](https://user-images.githubusercontent.com/85419447/192778799-d04ca5af-395f-415c-a574-48df21a84d51.png)
 
-##rebase
+## rebase
 Standing on 'feature' branch
 ```
 git rebase master
